@@ -146,13 +146,15 @@ a {
     display: flex;
     height: 100%;
 }
-.home-header{
+
+.home-header {
     position: absolute;
     width: 100vw;
     color: #facc64;
     background-color: #00000000;
     height: 100px;
 }
+
 header {
     position: absolute;
     top: 0;
@@ -300,6 +302,7 @@ footer {
 .menu:hover {
     color: #facc64;
 }
+
 .home-contents {
     max-width: 1200px;
     min-height: 75vh;
@@ -308,6 +311,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 15px;
 }
+
 .home-contents h2 {
     color: #facc64;
     display: inline-block;
@@ -367,4 +371,10 @@ footer {
 
 .tile {
     padding: 0px;
+}
+
+@media print {
+    body {
+        display: none;
+    }
 }
