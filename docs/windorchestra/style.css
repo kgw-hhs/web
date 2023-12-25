@@ -300,6 +300,23 @@ footer {
 .menu:hover {
     color: #facc64;
 }
+.home-contents {
+    max-width: 1200px;
+    min-height: 75vh;
+    background-color: #000000;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.home-contents h2 {
+    color: #facc64;
+    display: inline-block;
+    border-bottom: 2px solid #facc64;
+}
+
+.home-contents p {
+    color: #fcfcfc;
+}
 
 .contents {
     max-width: 1200px;
