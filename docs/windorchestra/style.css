@@ -304,9 +304,9 @@ footer {
 .contents {
     max-width: 1200px;
     min-height: 67vh;
-    padding: 115px;
+    padding: 15px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 115px;
     margin-bottom: 15px;
 }
 
