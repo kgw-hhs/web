@@ -269,7 +269,7 @@ header {
     left: 100%;
     /* メニューを画面の外に飛ばす */
     z-index: 99;
-    background: #000000;
+    background: var(--background-color);
     transition: .5s;
 }
 
