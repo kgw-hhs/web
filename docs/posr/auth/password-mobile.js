@@ -1,6 +1,6 @@
 function redirect() {
     var passwordInput = document.getElementById('password').value;
-    var redirectURL = 'login.html?pass=' + encodeURIComponent(passwordInput);
+    var redirectURL = 'mobile.html?pass=' + encodeURIComponent(passwordInput);
 
     // パスワードの検証はサーバーサイドで行うべきですが、ここでは簡単な例として設定しています。
     var predefinedPassword = 'password';
