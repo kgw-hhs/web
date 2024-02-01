@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // パラメータが空の場合にリダイレクト
     if (passParam === '') {
-        const redirectUrl = 'login.html?pass=error&error=empty';
+        const redirectUrl = 'login?pass=error&error=empty';
         window.location.href = redirectUrl;
     }
 });
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // パラメータが任意の値で、かつ pass=error でない場合にリダイレクト
     if (passParam !== null && passParam !== '' && passParam !== 'error') {
-        const redirectUrl = 'login.html?pass=error&error=error';
+        const redirectUrl = 'login?pass=error&error=error';
         window.location.href = redirectUrl;
     }
 });
